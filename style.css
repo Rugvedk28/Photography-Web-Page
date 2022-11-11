@@ -1,0 +1,185 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+body
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(31, 40, 114, 0.5)),
+     url('Photos/cover-camera-1.jpg');
+    width: 100%;
+    height: 90vh;    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:top;
+}
+
+
+nav
+{
+    width: 100%;
+    height: 80px;
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 0px 0px;
+    position: fixed;
+    top: 0;
+
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 10px 0px;
+    margin-left: 0px;
+ 
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: Verdana;
+    font-size: 20px;
+    
+}
+
+.menu a:first-child
+{
+color: dodgerblue;
+}
+
+.menu a:hover
+{
+    color:darkblue;
+}
+
+
+.icon a{
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+
+.icon a:hover{
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+
+.htext
+{
+    color: white;
+    max-width: 700px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.htext h1
+{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+.htext input
+{
+    width: 60%;
+    padding: 20px;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.htext button
+{
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(222, 113, 41);
+    color: white;
+    border:none;
+    outline: none;
+    border-radius:8px;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.htext button:hover
+{
+    background-color:rgb(241, 201, 44);
+    color: darkblue;
+}
+
+.filter-gallery
+{
+    padding: 100px;
+
+}
+
+.portfolio-menu
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-menu ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+
+}
+
+.portfolio-menu ul li:hover
+{
+    color: white;
+    background: rgb(242, 137, 0);
+    border-radius: 8px;
+}
+
+li.active
+{
+    color: white;
+    background: rgb(242, 137, 0);
+    border-radius: 8px;
+}
+
+
+
+.portfolio-item .item
+{
+    width: 360px;
+    height: 360px;
+    float: left;
+    margin-bottom: 0px;
+    margin-right: 60px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.portfolio-item .item img{
+    width: 110%;
+    height: 70%;
+    align-items: center;
+    border-radius: 8px;
+}
